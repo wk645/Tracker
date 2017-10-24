@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+* {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #57585b;
+}
+
 #header {
 	color: #8bb3f4;
 	text-align: center;
@@ -19,10 +24,23 @@ div#focusBox {
 input#focusText {
 	width: 950px;
 	height: 50px;
-	font-size: 45px;
+	font-size: 40px;
+	color: white;
 }
 
-* {
-	font-family: 'Montserrat', sans-serif;
-	background-color: #57585b;
+h2#todos {
+	text-align: center;
+	font-size: 30px;
+	color: white;
 }
+
+p#time {
+	text-align: center;
+	font-size: 150px;
+	color: white;
+	margin: auto;
+}
+
+
+
+
