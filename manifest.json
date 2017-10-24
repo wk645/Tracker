@@ -1,0 +1,21 @@
+{ 
+	"manifest_version": 2,
+	"name": "Tracker",
+	"version": "1.0",
+		"background": {
+			"scripts": ["background.js"]
+		},
+	"permissions": [
+		"tabs",
+		"storage"
+	],
+	"description": "A Google Chrome extension for tracking your day.",
+	"icons": {
+		"128": "icon128.png",
+		"48": "icon48.png",
+		"16": "icon16.png"
+	},
+	"browser_action": {
+		"default_title": "Tracker"
+	}
+}

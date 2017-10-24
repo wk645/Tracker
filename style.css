@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+#header {
+	color: #8bb3f4;
+	text-align: center;
+	font-size: 45px;
+}
+
+.focus {
+	text-align: center;
+	color: white;
+	font-size: 55px;
+}
+
+div#focusBox {
+	text-align: center;
+}
+
+input#focusText {
+	width: 950px;
+	height: 50px;
+	font-size: 45px;
+}
+
+* {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #57585b;
+}
