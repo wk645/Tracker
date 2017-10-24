@@ -31,16 +31,21 @@ document.addEventListener('DOMContentLoaded', function() {
 			todosList.innerHTML = mappedTodos
 			
 			focusContent.value = ""
+
 		}
 
 	})
 
-	let today = new Date();
-	let h = today.getHours();
-	let m = today.getMinutes();
-	
-	let time = document.getElementById("time")
-	time.innerHTML = `${h}:${m}`
+	function updateTime() {
+		let time = document.getElementById("time")
+		let today = new Date();
+		let h = today.getHours();
+		let m = today.getMinutes();
+
+		time.innerHTML = `${h}:${m}`
+	}
+	setInterval(updateTime, 500);
+
 
 
 
