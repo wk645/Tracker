@@ -2,18 +2,36 @@
 <html>
 	<head>
 		<title>Tracker</title>
-		<script src="tracker.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/dist/semantic.min.css">
 		<script src="jquery-3.2.1.min.js"></script>
+		<script src="css/dist/semantic.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="tracker.js"></script>
+		
 	</head>
 	<body>
 		<h2 id="header">Tracker</h2>
+
 		<p id="time"></p>
+
 		<h1 class="focus">What is your priority for today?</h3>
-		<br>
-		<div id="focusBox"><input type="text" id="focusText"></div>
+
+		<center><div class="ui input" id="focusBox">
+			<input type="text" id="focusText">
+		</div></center>
+
 		<div id="today">
 
 		</div>
+
+		<!-- <h2>Notes</h2> -->
+		<div class="ui input" id="noteBox">
+			<input type="text" id="noteText"></div>
+
+			<div id="allNotes">
+			</div>
+			
+		</div>
+
 	</body>
 </html>
